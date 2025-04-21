@@ -9,10 +9,8 @@
 
 ## Установка
 
-1. Клонируйте репозиторий:
-
-   
-   git clone https://github.com/your-username/todo-app.git
+    Клонируйте репозиторий:
+    git clone https://github.com/your-username/todo-app.git
 
     Перейдите в директорию проекта:
     cd todo-app
