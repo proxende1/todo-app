@@ -11,32 +11,26 @@
 
 1. Клонируйте репозиторий:
 
-   ```bash
+   
    git clone https://github.com/your-username/todo-app.git
 
     Перейдите в директорию проекта:
-
-cd todo-app
-
-Установите зависимости:
-
-npm install
-
-Запустите приложение:
-
-npm start
-
-Приложение будет доступно по адресу http://localhost:3000.
-
-
-Убедитесь, что Docker установлен на вашем компьютере.
-
-Постройте Docker-образ:
-
-docker build -t todo-app .
-
-Запустите контейнер:
-
-docker run -p 3000:3000 todo-app
-
-Приложение будет доступно по адресу http://localhost:3000.
+    cd todo-app
+    
+    Установите зависимости:
+    npm install
+    
+    Запустите приложение:
+    npm start
+    
+    Приложение будет доступно по адресу http://localhost:3000.
+    
+    Убедитесь, что Docker установлен на вашем компьютере.
+    
+    Постройте Docker-образ:
+    docker build -t todo-app .
+    
+    Запустите контейнер:
+    docker run -p 3000:3000 todo-app
+    
+    Приложение будет доступно по адресу http://localhost:3000.
